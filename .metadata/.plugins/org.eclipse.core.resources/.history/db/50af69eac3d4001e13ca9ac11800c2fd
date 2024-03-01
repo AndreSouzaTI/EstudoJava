@@ -1,0 +1,19 @@
+package unidade2;
+
+import javax.swing.JOptionPane;
+
+public class LanHouse {
+
+	public static void main(String[] args) {
+
+		double valor_15min = 2;
+		
+		double horas, minutos, total_minutos, valor_total;
+		horas = Double.parseDouble((JOptionPane.showInputDialog("E Favor informar o numero de horas utilizadas!")));
+		minutos = Double.parseDouble((JOptionPane.showInputDialog("E Favor informar o numero de minutos utilizados!")));
+		total_minutos = Double.parseDouble((JOptionPane.showInputDialog("O total de minutos utilizados foi " + ((horas * 60  ) + minutos))));
+		
+
+	}
+
+}

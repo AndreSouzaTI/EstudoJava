@@ -1,0 +1,23 @@
+package unidade3;
+
+import java.util.Scanner;
+
+public class Equacao2Grau {
+
+	public static void main(String[] args) {
+		
+		int a, b, c;
+		double delta, x1, x2;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Digite o valor de a");
+		a = teclado.nextInt();
+		System.out.println("Digite o valor de a");
+		b = teclado.nextInt();
+		System.out.println("Digite o valor de a");
+		c = teclado.nextInt();
+		
+
+	}
+
+}

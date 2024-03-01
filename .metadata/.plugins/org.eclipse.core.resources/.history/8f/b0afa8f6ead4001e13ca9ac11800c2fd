@@ -1,0 +1,27 @@
+package unidade3;
+
+import java.util.Scanner;
+
+public class CaixaEletronico {
+
+	public static void main(String[] args) {
+		
+		int saque, notas100, notas50, notas10;
+		int resto;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Digite Valor do saque");
+		saque = teclado.nextInt();
+		
+		if (saque%10 == 0) {
+			notas100 =  (int) Math.floor(saque/100);
+			resto = saque % 100;
+			System.out.println("Digite Valor do saque");
+			
+		}else {
+			System.out.println("Valor informado de saque incorreto. Favor inserir novo valor!");
+			return;
+		}
+
+	}
+
+}

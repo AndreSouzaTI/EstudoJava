@@ -1,0 +1,36 @@
+package unidade4;
+
+import java.util.Scanner;
+
+public class CalculaMedia50Alunos {
+
+	public static void main(String[] args) {
+		
+		final int QUANTIDADE_NOTAS = 4;
+		double nota1, nota2, nota3, nota4;
+		double media, media50alunos = 0;
+		int i = 1;
+		Scanner teclado = new Scanner(System.in);
+		
+		for (i=1; i <=50; i++) {
+			System.out.println("Favor informar nota 1 ");
+			nota1 = teclado.nextDouble();				
+			System.out.println("Favor informar nota 2 ");
+			nota2 = teclado.nextDouble();
+			System.out.println("Favor informar nota 3 ");
+			nota3 = teclado.nextDouble();
+			System.out.println("Favor informar nota 4 ");
+			nota4 = teclado.nextDouble();
+			
+			media = (nota1 + nota2 + nota3 + nota4) / QUANTIDADE_NOTAS;
+			media50alunos = media50alunos + media;
+			System.out.println("A média total é de " + media);
+			
+		}
+		media50alunos = media50alunos/i;
+		System.out.println("A média total dos alunos é de " + media50alunos);
+		teclado.close();
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package unidade3;
+
+import javax.swing.JOptionPane;
+
+public class FormaPagamento {
+
+	public static void main(String[] args) {
+		
+		double valor_produto, valor_final_produto;
+		int codigo;
+		
+		valor_produto = Double.parseDouble((JOptionPane.showInputDialog("Favor informar o valor do produto")));
+		codigo = Integer.parseInt((JOptionPane.showInputDialog("Favor informara o tipo de pagamento"
+				+ "[1 - 10% desconto à vista] [2 - 5% de desconto no cartão]"
+				+ "[3 - 2x no cartão sem juros] [4 - 3x com juros de 10% ]")));
+		
+		switch (codigo) {
+		case 1: {
+			valor_final_produto = valor_produto*0.1;
+			JOptionPane.showMessageDialog(null,"O valor final com desconto será de R$" + valor_final_produto);
+			break;
+		}
+		case 2: {
+			valor_final_produto = valor_produto;
+			JOptionPane.showMessageDialog(null,"O valor final com desconto será de R$" + valor_final_produto);
+			break;
+		}
+		case 3: {
+			valor_final_produto = valor_produto;
+			JOptionPane.showMessageDialog(null,"O valor final será 2 parcelas de R$" + valor_produto/2);
+			break;
+		}
+		case 4: {
+			JOptionPane.showMessageDialog(null,"O valor final com desconto será de R$" + valor_produto*1.1/3);
+			break;
+		}
+		default:
+			JOptionPane.showMessageDialog(null,"O valor final com desconto será de R$" + valor_produto*1.1/3);
+		
+		
+
+	}
+
+}

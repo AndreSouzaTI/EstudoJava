@@ -1,0 +1,30 @@
+package unidade3;
+
+import java.util.Scanner;
+
+public class AlgoritmoTriangulo {
+
+	public static void main(String[] args) {
+		
+		int a, b, c;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Digite valor de a");
+		a = teclado.nextInt();
+		System.out.println("Digite valor de a");
+		b = teclado.nextInt();
+		System.out.println("Digite valor de a");
+		c = teclado.nextInt();
+		
+		if ((a < b +c) && (b < a + c) && (c < a + b)) {
+			
+			
+		}else {
+			System.out.println("Os valores informados não formam um triângulo!");
+		}
+		
+		
+
+	}
+
+}

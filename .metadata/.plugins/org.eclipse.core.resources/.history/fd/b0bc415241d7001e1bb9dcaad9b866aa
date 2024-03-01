@@ -1,0 +1,25 @@
+package unidade4;
+
+public class SequenciaiS {
+
+	public static void main(String[] args) {
+		
+		double s, s9, s10, s100, s10000;
+		s = 1;
+		
+		for(int i =2; i<=10000; i++) {
+			if(i == 9)
+				s9 = s;
+			else if (i == 10)
+				s10 = s;
+			else if (i == 100)
+				s100 = s;
+			else if (i == 10000)
+				s10000 = s;
+				
+			
+		}
+
+	}
+
+}

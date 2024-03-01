@@ -1,0 +1,18 @@
+package unidade4;
+
+import java.util.Scanner;
+
+public class MenorMaior {
+
+	public static void main(String[] args) {
+		
+		int numero, menor, maior, i;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Favor informar primeiro número ");
+		numero = teclado.nextInt();
+		
+		for( i=1; i<=10; );
+
+	}
+
+}

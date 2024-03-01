@@ -1,0 +1,41 @@
+package unidade2;
+
+import java.util.Scanner;
+
+public class MediaAritimetica {
+
+	public static void main(String[] args) {
+		
+//		final int notas = 4;
+//		double nota1 = 8.8;
+//		double nota2 = 6.3;
+//		double nota3 = 8.9;
+//		double nota4 = 9.2;
+//		double total_notas = nota1 + nota2 + nota3 + nota4;
+//		double media = total_notas / notas;
+//		System.out.println("A média final é de " + media);
+		
+		final int QUANTIDADE_NOTAS = 4;
+		double nota1, nota2, nota3, nota4;
+		double media;
+		
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Favor informar nota 1 ");
+		nota1 = teclado.nextDouble();				
+		System.out.println("Favor informar nota 2 ");
+		nota2 = teclado.nextDouble();
+		System.out.println("Favor informar nota 3 ");
+		nota3 = teclado.nextDouble();
+		System.out.println("Favor informar nota 3 ");
+		nota4 = teclado.nextDouble();
+		
+		media = (nota1 + nota2 + nota3 + nota4) / QUANTIDADE_NOTAS;
+		System.out.println("A média final é de " + media);
+		teclado.close();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package unidade2;
+
+public class MediaAritimetica {
+
+	public static void main(String[] args) {
+		
+		final int notas = 4;
+		double nota1 = 8.8;
+		double nota2 = 6.3;
+		double nota3 = 8.9;
+		double nota4 = 9.2;
+		double total_notas = nota1 + nota2 + nota3 + nota4;
+		double media = total_notas / notas;
+		System.out.println("A média final é de " + media);
+		
+
+	}
+
+}

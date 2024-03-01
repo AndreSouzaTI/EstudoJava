@@ -1,0 +1,13 @@
+package unidade2;
+
+public class EscreveVariaveis {
+
+	public static void main(String[] args) {
+
+		String fruta = "Banana";
+		double valor = 3.50;
+		System.out.println("O valor da fruta é " + valor );
+
+	}
+
+}

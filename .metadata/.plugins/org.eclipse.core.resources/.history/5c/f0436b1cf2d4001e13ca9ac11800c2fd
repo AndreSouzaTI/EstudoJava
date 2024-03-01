@@ -1,0 +1,20 @@
+package unidade3;
+
+import java.util.Scanner;
+
+public class Moeda {
+
+	public static void main(String[] args) {
+		
+		double valor;
+		int tipo_moeda;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Favor informar o valor ser convertido");
+		valor = teclado.nextInt();
+		System.out.println("Favor informar o tipo de moeda [1-Libra][2-Dolar][3-Euro]");
+		tipo_moeda = teclado.nextInt();
+		
+	}
+
+}

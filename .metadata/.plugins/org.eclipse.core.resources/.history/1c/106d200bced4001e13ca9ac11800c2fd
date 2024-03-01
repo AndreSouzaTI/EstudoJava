@@ -1,0 +1,19 @@
+package unidade3;
+
+import java.util.Scanner;
+
+public class RaizExata {
+
+	public static void main(String[] args) {
+		
+		int numero;
+		double rais_exata, maior_valor;
+		
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Favor informar o número");
+		numero = teclado.nextInt();
+
+		
+	}
+
+}
